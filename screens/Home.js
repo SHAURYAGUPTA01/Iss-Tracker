@@ -54,7 +54,8 @@ const styles = StyleSheet.create({
     titleText: {
         fontSize: 35,
         fontWeight: 'bold',
-        textAlign: "center"
+        textAlign: "center",
+        color:"white",
     },
     droidSafeArea: {
         marginTop: Platform.OS === "android" ? StatusBar.currentHeight : 0
